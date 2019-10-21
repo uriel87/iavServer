@@ -25,6 +25,7 @@ module.exports = function() {
 
 	// Load the routing files
 	require('../app/routes/user.rout')(app);
+	require('../app/routes/lastSeenMedia.rout')(app);
 
 	//Return the Express application instance
 	return app;

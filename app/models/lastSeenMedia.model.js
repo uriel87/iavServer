@@ -11,9 +11,8 @@ const lastSeenMediaSchema = new schema( {
 
     email: { type:String,  unique:true},
     
-	lastMediaId: [{
+	lastMediaSearches: [{
         lastSearch: String,
-        count: { type: Number, default: 0 },
         date: String
     }]
 
